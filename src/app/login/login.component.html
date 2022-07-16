@@ -1,0 +1,15 @@
+<p>login works!</p>
+
+<button (click)="getapiCall()">Get API CALL</button>
+<p>{{getresData | json}}</p>
+
+<button (click)="postapiCall()">Post API CALL</button>
+<p>{{postresData | json}}</p>
+<p>Error: {{serverError}}</p>
+
+
+<button (click)="updateapiCall()">Update API CALL</button>
+<p>{{updateresData | json}}</p>
+
+<button (click)="deleteapiCall()">Delete API CALL</button>
+<p>{{deleteresData | json}}</p>
